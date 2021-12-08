@@ -1,0 +1,154 @@
+body {
+  width: 100%;
+  background-color: #f8f4f4;
+}
+.navbar {
+  height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  background: #ffffff;
+}
+span {
+  margin-top: 15px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.list .list__item {
+  margin-right: 30px;
+  font-size: 1rem;
+}
+.list .list__itemlogo {
+  font-weight: bolder;
+  font-size: 30px;
+}
+.btn {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.btn--primary {
+  border: 1px solid lightgray;
+  padding: 15px 30px;
+  color: rgba(23, 58, 86, 1);
+  border-radius: 10px;
+}
+.btn--primary:hover {
+  background-color: #ffffff;
+}
+.btn--secondary {
+  background-color: #ff9900;
+  padding: 15px 30px;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+}
+.btn--secondary:hover {
+  background-color: #aa6600;
+}
+
+header {
+  margin-bottom: 50px;
+}
+h1 {
+  font-weight: bold;
+}
+.hero {
+  display: flex;
+  justify-content: space-evenly;
+}
+p {
+  margin-bottom: 20px;
+  font-size: 17px;
+  line-height: 1.5;
+}
+.link {
+  text-decoration: none;
+  color: #ff9900;
+  border: 1px solid #ff9900;
+}
+h2 {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+}
+h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+.tests {
+  margin-right: 80px;
+}
+.sign-now {
+  text-align: center;
+  margin-top: 50px;
+}
+.news {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 100px;
+}
+.left-news {
+  margin-right: 200px;
+}
+.right-news {
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+}
+.tick-icons::before {
+  content: "\2705";
+}
+.footer-setting {
+  display: flex;
+  padding-bottom: 5rem;
+}
+
+.footer {
+  width: 80%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-inline-start: 100px;
+}
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+.footer-input {
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 200px;
+  margin-left: 100px;
+}
+.footer-button {
+  width: 150px;
+  background-color: #ff9900;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  margin: 15px;
+}
